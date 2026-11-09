@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100f">
+  <title>R.I.P. – Requiescat In Pace | Audio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #11100f;
+      color: #f5f0e8;
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+    main {
+      width: min(100%, 760px);
+      text-align: center;
+      padding: 0 0 28px;
+    }
+    .cover {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 2px;
+      margin: 0 auto 30px;
+    }
+    .eyebrow {
+      color: #c49a5a;
+      font: 12px/1.6 Arial, sans-serif;
+      letter-spacing: .28em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 12px 0 8px;
+      font-size: clamp(34px, 8vw, 54px);
+      font-weight: 400;
+      letter-spacing: .08em;
+    }
+    .subtitle {
+      color: #c49a5a;
+      font: 13px Arial, sans-serif;
+      letter-spacing: .25em;
+      margin-bottom: 28px;
+    }
+    p {
+      color: #d8d1c6;
+      font-size: 17px;
+      line-height: 1.6;
+      margin: 12px auto;
+      max-width: 560px;
+    }
+    .audio-box {
+      margin: 30px auto 26px;
+      padding: 22px;
+      border: 1px solid #9b7137;
+      max-width: 580px;
+      background: #171615;
+    }
+    .audio-label {
+      color: #c49a5a;
+      font: 12px Arial, sans-serif;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .audio-player {
+      display: block;
+      width: 100%;
+      height: 120px;
+      border: 0;
+    }
+    .hint {
+      font: 12px/1.5 Arial, sans-serif;
+      color: #9f988e;
+      margin-top: 14px;
+    }
+    footer {
+      color: #a98755;
+      font-size: 13px;
+      margin-top: 36px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="cover" src="images/copertina.png" alt="R.I.P. – Requiescat In Pace">
+
+    <div class="eyebrow">R.I.P. · Requiescat In Pace</div>
+    <h1>Il cubo</h1>
+    <div class="subtitle">CAPITOLO 01</div>
+
+    <p>Inquadra il QR Code nel fotolibro per ascoltare l'audio durante la lettura.</p>
+
+    <section class="audio-box" aria-label="Riproduzione audio">
+      <div class="audio-label">Ascolta il capitolo</div>
+
+      <iframe
+        class="audio-player"
+        src="https://1drv.ms/u/c/2e37b323612e3689/IQSaWb0-60tvRLER9WSMAopoAeL0ATnpJ7ykVNaoBlDh-tc"
+        frameborder="0"
+        scrolling="no"
+        allow="autoplay"
+        title="Audio del capitolo 01">
+      </iframe>
+
+      <div class="hint">
+        La riproduzione parte quando premi Play.
+        È necessaria una connessione Internet.
+      </div>
+    </section>
+
+    <footer>R.I.P. – Requiescat In Pace</footer>
+  </main>
+</body>
+</html>
+
